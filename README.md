@@ -401,6 +401,24 @@ Yesなら、作ってみよう。
 
 ---
 
+## Engineering
+
+このPublicリポジトリは、Yaprの理念・組織ルールと共通開発ポリシーの唯一の正本（SSOT）です。
+
+- [AIへの委任・権限・公開基準](engineering/agent-policy.md)
+- [IssueとPull Requestの粒度・検証・レビュー](engineering/pull-request.md)
+
+taskhubは依頼のInboxと進捗・依存関係の記録、agent-workflowsは共通AI実行処理を担当します。
+共通ルール本文をそれらに複製せず、このhandbookを参照します。
+プロジェクト定義はportfolio、収集した非公開実績はanalytics、公開表示はwebsiteの責務とし、ここには保持しません。
+これらは責務の定義であり、各基盤の接続・稼働を保証するものではありません。
+
+ここには公開可能な一般ルールだけを置きます。秘密情報・個人情報・顧客情報・非公開Issue本文は掲載しません。
+AIへの委任は許可された変更・検証・Draft PRまでとし、マージ・本番公開・課金・データ削除には人間の明示承認が必要です。
+詳細な境界と手順は上記の開発ポリシーに従います。
+
+---
+
 ## License
 
 This handbook is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
